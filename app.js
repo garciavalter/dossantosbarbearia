@@ -13,7 +13,7 @@ app.get('/', (req, res) =>{
     res.render('landing')
 });
 
-app.get('/whatsapp', (req, res) => {
+app.get('/subscribe', (req, res) => {
     res.redirect(links.subscribe);
 });
 

@@ -116,18 +116,16 @@ body {
     padding-right: 10px;
 }
 
-.icons-header{
+.icons-boxes > :nth-child(2){
     height: 4vw;
-}
-
-.icons-boxes > :nth-child(2) {
     font-size: 2vw;
     color: #d4b29b;
     line-height: 100%;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 0 0 0;
+    margin: 1vw 0 0 0;
 }
+
 .icons-boxes > :nth-child(3) {
     font-size: 1.5vw;
     color: #f5f5f5;
@@ -172,13 +170,11 @@ body {
     margin-bottom: 2vw;
 }
 
-
-
-
 .warranty-images {
     background-color: transparent;
     margin-bottom: -22vw;
 }
+
 .warranty-images > :nth-child(1){
     display: block;
     max-width: 35vw;
@@ -205,9 +201,7 @@ body {
     line-height: 120%;
 }
 .warranty > p {
-
     margin-bottom: 0px;
-
 }
 
 .call-to-action {
@@ -256,18 +250,15 @@ body {
 }
 
 .boxshadow{
-
     -webkit-box-shadow: -2px 2px 5px 0px rgba(50, 50, 50, 0.35);
     -moz-box-shadow:    -2px 2px 5px 0px rgba(50, 50, 50, 0.35);
     box-shadow:         -2px 2px 5px 0px rgba(50, 50, 50, 0.35);
-
 }
 
 .uppercase{
-
     text-transform: uppercase;
-
 }
+
 .bold{
     font-weight: bold;
 }
@@ -278,8 +269,4 @@ body {
     color: #f5f5f5 !important;
     font-size: 6vw !important;
     margin-bottom: 5vw;
-}
-
-.title{
-    color: #d4b29b;
 }
