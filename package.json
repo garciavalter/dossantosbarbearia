@@ -1,0 +1,24 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for Dos Santos barbershop",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garciavalter/dossantosbarbearia.git"
+  },
+  "author": "Valter Roberto Garcia Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garciavalter/dossantosbarbearia/issues"
+  },
+  "homepage": "https://github.com/garciavalter/dossantosbarbearia#readme"
+}
