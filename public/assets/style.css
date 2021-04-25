@@ -20,87 +20,93 @@ body {
     color: #5e2d0c;
 }
 
-.svg {
-    width: 12vw;
-    height: 12vw;
-    filter: invert(95%);
-    }
 
 .style1{
     background-color: #5e2d0c;
     color: #f5f5f5;
-    margin: 0px !important;
-    padding-bottom: 40px;
+    padding: 40px 25%;
 }
 
-.top > :nth-child(1){
-    padding: 10% 7.5% 5% 7.5%;
-    margin: 0px;
-    font-size: 6vw;
-    line-height: 120%;
+.style2{
+    padding: 40px 25%;
+    text-align: center;
+    color: #5e2d0c;
+    background-color: transparent;
+}
 
-}.top > :nth-child(2){
-    padding: 0% 15% 0% 15%;
-    margin: 0px;
-    font-size: 4.5vw;
+.top{
+    background-image: url(/assets/img/bg1.png);
+    background-size: cover;
+    padding: 100px 25%;
+}
+
+.font-size1{
+    font-size: 4rem;
+    line-height: 120%;
+}
+
+.font-size2{
+    font-size: 3rem;
     line-height: 110%;
 }
 
-.arguments {
-    margin: -55px 0px 50px 0px;    
-    background-image: url(/assets/img/1.png);
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: -70px 0px;
-    color: #5e2d0c;
+
+.font-size3{
+    font-size: 2rem;
+    line-height: 110%;
 }
 
+
+.arguments {
+    margin-top: -135px;
+    padding: 100px 20%;
+    padding: 100px 20%;
+}
 .subscribebtn {
-    font-size: 3vw  !important;
     padding: 10px !important;
     font-weight: bold !important;
     color: #5e2d0c !important;
     text-transform: uppercase !important;
     background-color: #d4b29b !important;
     border-color: #d4b29b !important;
-    margin: 15% 0 5% 0;
+    margin: 100px 0px;
+    text-decoration: none;
+    font-size: 3rem;
+    border-radius: 5px;
 }
 
 .argumentsheader{
-    font-size: 5vw  !important;
     padding: 5% !important;
-    margin-bottom: 16px i !important;
-    line-height: 110%;
+    margin-bottom: 16px !important;
 }
 
 .argumentsline{
-    text-align: center;
-    font-size: 4vw;
     padding: 0px 20px;
-    line-height: 110%;
     margin: 0;
 }
 
 .box{
+    text-align: center;
    margin: 50px 30px 30px 30px !important;
    color: black;
    padding: 10px 10px 5px 10px !important;
-   font-size: 4vw;
+}
+
+.infos{
+    background-image: url(/assets/img/bg2.png);
+    background-size: cover;
 }
 
 .infosheader{
-    text-align: justify;
-    font-size: 6vw;
+    text-align: center;
     padding: 5% 12% 0% 12%;
-    line-height: 110%;
 }
-
-.tag{
+.apptag{
     background-color: #d4b29b;
     color: #5e2d0c !important;
     border-radius: 3px;
     text-align: center;
-    font-size: 3.25vw;
+    font-size: 3rem;
     padding: 0px 5px;
     margin: 0.25%;
 }
@@ -117,137 +123,160 @@ body {
 }
 
 .icons-boxes > :nth-child(2){
-    height: 4vw;
-    font-size: 2vw;
+    height: 30px;
+    font-size: 2rem;
     color: #d4b29b;
     line-height: 100%;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 1vw 0 0 0;
+    margin: 10px 0 30px 0;
 }
 
 .icons-boxes > :nth-child(3) {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     color: #f5f5f5;
     line-height: 100%;
 }
- 
 
+.svg {
+    width: 200px;
+    height: 200px;
+    filter: invert(95%);
+    }
+.about {
+    padding: 0 15%;
+    margin-bottom: 100px;
+}
 .about > :nth-child(1){
     display: block;
-    max-width: 50vw;
-    max-height: 50vw;
+    max-width: 25vw;
+    max-height: 25vw;
     width: auto;
     height: auto;
-    margin: 1vw 2vw 0 7vw;
+    margin: auto 2vw auto 7vw;
     padding: 0;
+    transform: rotate(-2deg);
+    border: 1vh solid white;
 }
 
 .about > div {
-    margin-top: 13%;
+    margin-top: 100px;
     margin-right: 15%;
     color: #5e2d0c;
-    line-height: 120%;
     
 }
 
-.about > div > :nth-child(1) {
-    font-size: 4vw;
+.about > div > p {
     text-align: left;
-    margin-bottom: 2vw;
-
 }
-
-.about > div > :nth-child(2) {
-    font-size: 4vw;
-    text-align: left;
+.about > div > :nth-child(1) {
+    margin-bottom: 0;
 }
 
 .about > div > :nth-child(3) {
-    text-align: left;
+
     margin-top: 3vw;
-    font-size: 2.5vw;
-    margin-bottom: 2vw;
+    margin-bottom: 20px;
 }
 
-.warranty-images {
-    background-color: transparent;
-    margin-bottom: -22vw;
-}
+
 
 .warranty-images > :nth-child(1){
     display: block;
-    max-width: 35vw;
-    max-height: 35vw;
+    max-width: 25vw;
+    max-height: 25vw;
     width: auto;
     height: auto;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     padding: 0;
 }
 
-.warranty-images > :nth-child(2){
-    display: block;
-    max-width: 44vw;
-    max-height: 44vw;
-    width: auto;
-    height: auto;
-    margin: -43vw 0vw 0vw 78vw;
-    padding: 0;
-}
 
 .warranty {
-    padding: 23vw 0vw 1vw 0vw;
-    font-size: 3vw;
-    line-height: 120%;
+    padding: 0vw 0vw 6vw 0vw;
+    font-size: 0.75rem;
+    background-image: url(/assets/img/bg3.png);
+    background-size: cover;
+}
+
+.warranty > img {
+    width: 15vw;
+    height: auto;
+    margin: 5vw auto;
 }
 .warranty > p {
     margin-bottom: 0px;
+    font-size: 4rem;
+    padding: 0 25%;
 }
 
 .call-to-action {
     padding-top: 5vw;
     color: #5e2d0c;
-    line-height: 150%;
 }
 
 .call-to-action > :nth-child(1){
-    font-size: 7vw;
-    margin-bottom: 3vw;
+    font-size: 7rem;
+    margin-bottom: 0;
+    line-height: 100%;
 
 }
 
-.call-to-action :nth-child(2){
-    font-size: 6vw;
+.call-to-action > :nth-child(2){
+    font-size: 5rem;
+    margin-bottom: 0;
+    line-height: 100%;
 
-}.call-to-action :nth-child(3){
-    margin-top: 8vw;
-    font-size: 6vw;
-}
-.subfont{
-    font-size: 4.5vw;
 }
 
+.call-to-action :nth-child(3){
+    margin: 1% 0%;
+    font-size: 5rem;
+
+}
 .call-to-action :nth-child(4){
-    margin-top: 8vw;
-    font-size: 5vw;
+    margin: 50px 0%;
+    font-size: 4rem;
+
 }
 
-.call-button {
-        font-size: 3vw  !important;
+.call-to-action > a {
         padding: 10px !important;
         font-weight: bold !important;
         color: #5e2d0c !important;
         text-transform: uppercase !important;
         background-color: #d4b29b !important;
         border-color: #d4b29b !important;
-        margin: 3vw 0vw;
+        margin: 100px 0px;
+        text-decoration: none;
+        font-size: 3rem;
+        border-radius: 5px;
+}
+.contact{
+    margin-top: 80px;
+    font-size: 4rem;
+    color: #5e2d0c;
+    margin-bottom: 150px;
 }
 
-.contact > p {
-
-    font-size: 3vw;
-
+.whatsapp {
+    margin-top: 100px;
 }
+
+.whatsapp > a {
+    background-color: #2cbda5;
+    border-color: #2cbda5;
+    color: #f5f5f5;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+   
+}
+
+.whatsapp > a:hover, a:visited, a:focus, a:visited {
+    color: #f5f5f5;
+}   
+
 
 .boxshadow{
     -webkit-box-shadow: -2px 2px 5px 0px rgba(50, 50, 50, 0.35);
@@ -263,10 +292,97 @@ body {
     font-weight: bold;
 }
 
-.whatsapp{
-    background-color: #2cbda5 !important;
-    border-color: #2cbda5 !important;
-    color: #f5f5f5 !important;
-    font-size: 6vw !important;
-    margin-bottom: 5vw;
+@media only screen and (max-width: 700px) {
+    .top{
+        background-image: url(/assets/img/bg1.png);
+        background-size: cover;
+    }
+    .icons{
+        max-width: 80%;
+        margin: auto;
+    }
+    
+    .icons > div{
+        flex: 1 1 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .icons-boxes > :nth-child(2){
+        height: auto;
+        font-size: 1.5rem;
+        color: #d4b29b;
+        line-height: 100%;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 10px 0 10px 0;
+    }
+    
+    .icons-boxes > :nth-child(3) {
+        font-size: 1rem;
+        color: #f5f5f5;
+        line-height: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .svg {
+        width: 250px;
+        height: 250px;
+        filter: invert(95%);
+        }
+
+    .about > :nth-child(1){
+        display: none;
+    }
+    
+    .about > div {
+        max-width: 80%;
+        margin: 15% auto;
+        
+    }
+    
+    .about > div > :nth-child(1) {
+        text-align: left;
+        margin-bottom: 0;
+        font-size: 3rem;
+    
+    }
+    
+    .about > div > :nth-child(2) {
+        text-align: left;
+        font-size: 3rem;
+    }
+    
+    .about > div > :nth-child(3) {
+        text-align: left;
+        margin-top: 3vw;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+    }
+
+    .warranty > p {
+        padding: 0 10%;
+        margin-bottom: 2px;
+        font-size: 1rem;
+    }
+
+    .contact {
+        color:#5e2d0c;
+    }
+    
+    .call-to-action {
+        margin: 0 auto;
+        max-width: 80%;
+        padding-top: 5vw;
+        color: #5e2d0c;
+    }
+
+    
+    .call-to-action > :nth-child(1){
+        font-size: 3rem;
+        margin-bottom: 0;
+        line-height: 100%;
+        padding-bottom: 25px;
+    
+    }
 }
