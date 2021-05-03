@@ -22,7 +22,7 @@ body {
 
 
 .style1{
-    background-color: #5e2d0c;
+    background-image: url(/assets/img/padrao.png);
     color: #f5f5f5;
     padding: 40px 20%;
 }
@@ -31,11 +31,6 @@ body {
     padding: 40px 20%;
     color: #5e2d0c;
     background-color: transparent;
-}
-
-.top{
-    background-image: url(/assets/img/bg1.png);
-    background-size: cover;
 }
 
 .font-size1{
@@ -96,11 +91,6 @@ body {
    margin: 50px 30px 30px 30px !important;
    color: black;
    padding: 10px 10px 5px 10px !important;
-}
-
-.infos{
-    background-image: url(/assets/img/bg2.png);
-    background-size: cover;
 }
 
 .infosheader{
@@ -196,12 +186,9 @@ body {
     padding: 0;
 }
 
-
 .warranty {
     padding: 0vw 0vw 6vw 0vw;
     font-size: 0.75rem;
-    background-image: url(/assets/img/bg3.png);
-    background-size: cover;
 }
 
 .warranty > img {
